@@ -1,4 +1,4 @@
-## Features
+<!--## Features
 
 <b><details><summary>Tap On Me For Bot Features</summary>
  
@@ -65,5 +65,5 @@
 </b>
 </details>
 
-
+-->
 
