@@ -1,0 +1,97 @@
+{
+    "name": "filetourl",
+    "description": "onlyforpandawep",
+    "keywords": ["PandaWep", "File", "telegram", "PandaWep"],
+    "repository": "https://github.com/akpandawep/FileXUrlPublick",
+    "success_url": "https://t.me/PandaWep",
+    "API_ID": {
+        "description": "Your APP ID From my.telegram.org",
+        "value": "22287041",
+        "required": true
+    },
+    "API_HASH": {
+        "description": "Your API Hash From my.telegram.org",
+        "value": "c149386dcd58a40fa9fe60e632e161d4",
+        "required": true
+    },
+    "BOT_TOKEN": {
+        "description": "Your Bot Token From @BotFather",
+        "value": "7195438444:AAHsqfmnIuzP8-0_23-Pbf5hXnrkDBj4q6w",
+        "required": true
+    },
+    "ADMINS": {
+        "description": "Add Your User ID",
+        "value": "6141937812",
+        "required": true
+    },
+    "DB_URL": {
+        "description": "Database Url Get It From Mongo DB",
+        "value": "mongodb+srv://filetourlpublic:p2vQrgGzOekTb2je@cluster0.aebxqii.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+        "required": true
+    },
+    "DB_NAME": {
+        "description": "Database Name",
+        "value": "Cluster0",
+        "required": false
+    },
+    "LOG_CHANNEL": {
+        "description": "Channel Id Need Store Files. Get Your channel id from Rose @MissRose_bot",
+        "value": "-1002018490404",
+        "required": true
+    },
+    "PICS": {
+        "description": "Start up pic of your bot. Get from telegraph_Bot",
+        "value": "https://image.pandawep.in/gojox.png https://image.pandawep.in/gojox.png",
+        "required": false
+    },
+    "BOT_USERNAME": {
+        "description": "Your Bot Username",
+        "value": "FileToUrlX_Bot",
+        "required": true
+    },
+    "FILE_STORE_CHANNEL": {
+        "description": "Channel ID to store files",
+        "value": "-1002018490404",
+        "required": true
+    },
+    "AUTO_DELETE_TIME": {
+        "description": "Auto delete time in seconds",
+        "value": "600",
+        "required": true
+    },
+    "PROTECT_CONTENT": {
+        "description": "Protect Content Enabled",
+        "value": "false",
+        "required": true
+    },
+    "AUTO_DELETE": {
+        "description": "Auto delete time in minutes",
+        "value": "10",
+        "required": true
+    },
+    "PUBLIC_FILE_STORE": {
+        "description": "Public file store enabled",
+        "value": "true",
+        "required": true
+    },
+    "CLONE_DB_URI": {
+        "description": "Clone Database URI",
+        "value": "mongodb+srv://UrlXxX:amQHCAeRRJivTRtR@cluster0.thx42l3.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
+    },
+    "CDB_NAME": {
+        "description": "CDB Name",
+        "value": "Cluster0",
+        "required": true
+    },
+  "FQDN": {
+        "description": "CDB Name",
+        "value": "",
+        "required": true
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
